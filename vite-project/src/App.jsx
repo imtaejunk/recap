@@ -7,8 +7,7 @@ function App() {
 
   return (
     <>
-      <div>
-        <h1>{light}</h1>
+      <div>\
         <button
           onClick={() => {
             setLight(light === 'OFF' ? 'ON' : 'OFF')
